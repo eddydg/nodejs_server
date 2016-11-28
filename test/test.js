@@ -1,4 +1,4 @@
-var asrequire("assert")
+var assert = require("assert");
 var todo_utils = require('../todo_utils');
 
 
