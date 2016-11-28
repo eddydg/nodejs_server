@@ -12,7 +12,7 @@ describe('#Error : Todo is null', function () {
     });
 
     it('should throw an error: true is true', function () {
-       assert.equal(false, true, "wesh tu fais nimp")
+       assert.equal(false, true, "the truth is restored")
      });
 
 });
