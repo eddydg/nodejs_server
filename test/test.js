@@ -1,4 +1,4 @@
-var assert = require("assert")
+var asrequire("assert")
 var todo_utils = require('../todo_utils');
 
 
@@ -11,18 +11,8 @@ describe('#Error : Todo is null', function () {
       }, /todo is null/);
     });
 
-});
+    it('should throw an error: true is true', function () {
+       assert.equal(false, true, "wesh tu fais nimp")
+     });
 
-describe('#Get', function () {
-    it('todo_utils._get(1) should return : A good thing', function () {
-        todo_utils._init();
-        todo_utils._new();
-        todo_utils._add('A thing', (todoList) => {});
-        todo_utils._add('A good thing', (todoList) => {});
-        todo_utils._add('Another thing', (todoList) => {});
-
-        todo_utils._get(1, (thing) => {
-            assert.equal(thing, 'A good thing');
-        });
-    });
 });
